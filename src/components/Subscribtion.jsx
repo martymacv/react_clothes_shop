@@ -1,8 +1,8 @@
-import Title from "./Title"
-import Text from "./Text"
-import Span from "./Span"
-import ActionButton from "./ActionButton"
-import Input from "./Input"
+import Title from "./generals/Title"
+import Text from "./generals/Text"
+import Span from "./generals/Span"
+import ActionButton from "./generals/ActionButton"
+import Input from "./generals/Input"
 import { Form } from "react-router-dom"
 
 function Subscribtion() {
