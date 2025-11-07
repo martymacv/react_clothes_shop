@@ -1,5 +1,35 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("../src/assets/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("../src/assets/fonts/Lato/Lato-Regular.ttf") format("woff2");
+}
+
+@theme {
+  --font-roboto: "Roboto", sans-serif; 
+  --font-lato: "Lato", sans-serif; 
+  --text-button: 12px; 
+  --text-button--font-weight: 500;
+  --text-button--line-height: 100%;
+  --text-button--letter-spacing: 0%;
+  --shadow-sidebar: 5px 0px 15px 0px rgba(5, 5, 5, 0.1);
+  --shadow-header: 0px 5px 22px 0px rgba(0, 0, 0, 0.25);
+  --shadow-add-post: 0px 15px 25px 0px rgba(0, 0, 0, 0.45);
+  --shadow-simple-post: 0px 15px 25px 0px rgba(0, 0, 0, 0.35);
+  --shadow-pagenav-base: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  --shadow-pagenav-selected: 0px 0px 10px 0px rgba(58, 108, 234, 0.15);
+}
 
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
